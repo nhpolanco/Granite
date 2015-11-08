@@ -1,0 +1,27 @@
+{
+  "name": "GRANITE",
+  "version": "0.0.0",
+  "authors": [
+    "Nick Polanco <https://github.com/nhpolanco>",
+    "Neill Silva <https://github.com/neill>"
+  ],
+  "description": "Roommating",
+  "main": "app/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/3rdparty",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.15",
+    "angular-bootstrap": "0.13.x",
+    "angular-uuid2": "*",
+    "angular-busy": "~4.1.3"
+  },
+  "resolutions": {
+    "angular": "1.3.15"
+  }
+}

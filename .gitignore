@@ -1,0 +1,10 @@
+.DS_Store
+assets/js/3rdparty
+node_modules/
+prod/
+!prod/app/getOnlinePurchaseHistoryService.json
+app/templates.js
+index.html
+assets/img/spritesheet.png
+assets/img/spritesheet-2x.png
+assets/css/sprites.css
