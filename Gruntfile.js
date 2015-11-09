@@ -7,13 +7,13 @@ module.exports = function (grunt) {
         cssmin: {
             app: {
                 files: {
-                    'prod/assets/css/reorder.min.css': 'assets/css/*.css'
+                    'prod/assets/css/granite.min.css': 'assets/css/*.css'
                 }
             },
 
             vendor: {
                 files: {
-                    'prod/assets/css/reorder.vendor.min.css': require('wiredep')().css || []
+                    'prod/assets/css/granite.vendor.min.css': require('wiredep')().css || []
                 }
             }
         },
@@ -27,12 +27,12 @@ module.exports = function (grunt) {
 
             app: {
                 src: 'app/**/*.js',
-                dest: 'prod/app/reorder.min.js'
+                dest: 'prod/app/granite.min.js'
             },
 
             vendor: {
                 files: {
-                    'prod/app/reorder.vendor.min.js': require('wiredep')().js
+                    'prod/app/granite.vendor.min.js': require('wiredep')().js
                 }
             }
         },
@@ -97,7 +97,7 @@ module.exports = function (grunt) {
                 src: 'app/**/*.html',
                 dest: 'app/templates.js',
                 options: {
-                    module: 'reorder',
+                    module: 'granite',
                     htmlmin: {
                         collapseBooleanAttributes:     true,
                         // collapseWhitespace:            true,
